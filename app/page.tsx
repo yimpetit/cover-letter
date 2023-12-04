@@ -2,8 +2,8 @@ import { info } from "../myInfo";
 
 export default function Template() {
   const to = {
-    name: "Dain Nova",
-    company: "SCP",
+    name: "Hiring Manager",
+    company: "True",
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
@@ -33,32 +33,33 @@ export default function Template() {
             <div className="pt-6 text-sm font-medium">{to.name}</div>
             <div className="pt-2 text-sm text-slate-500">{to.company}</div>
             <div className="pt-20 text-xs">From</div>
-            <div className="pt-6 text-sm font-medium">
-              {info.firstName} {info.lastName}
-            </div>
+            <div className="pt-6 text-sm font-medium">Front End Developer</div>
             <div className="pt-2 text-sm text-slate-500">
-              Front End Developer
+              {info.firstName} {info.lastName}
             </div>
           </div>
           <div className="basis-3/4 text-sm leading-6">
             <p>
-              As an accomplished and seasoned professional, I was compelled to
-              contact you with my interest in the test opportunity with Test. I
-              bring an extensive background of success in this field, along with
-              the qualifications which are required to make a positive impact in
-              this role.
+              I hope this email finds you well. I am writing to express my
+              interest in the Front End Developer position at {to.company}, as
+              advertised on JobsDB. With a strong background in React.js,
+              Next.js, and Typescript, I am confident in my ability to
+              contribute effectively to your team.
             </p>
             <p className="pt-8">
-              I offer a combination of unique skills and competencies which I
-              have developed through a lengthy and rewarding career. I have
-              honed quality assurance and project coordination skills while
-              being proficient in communication. In previous roles, I have
-              contributed to organizational improvements, collaborative team
-              efforts and attainment of key business targets.
+              I recently relocated from South Korea to pursue career
+              opportunities in Thailand, and I am excited about the prospect of
+              joining a forward-thinking company like {to.company}. My academic
+              background, coupled with hands-on experience in developing web,
+              makes me a suitable candidate for this role.
             </p>
             <p className="pt-8">
-              Thank you for read.
-              <br />
+              Thank you for considering my application. I would welcome the
+              opportunity to further discuss how my skills and experiences align
+              with the goals of {to.company}. Please find my resume attached for
+              your reference.
+            </p>
+            <p className="pt-8">
               {info.firstName} {info.lastName}
             </p>
           </div>
