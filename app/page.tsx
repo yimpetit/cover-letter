@@ -3,7 +3,7 @@ import { info } from "../myInfo";
 export default function Template() {
   const to = {
     name: "Hiring Manager",
-    company: "True",
+    company: "Binary Stride",
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
